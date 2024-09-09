@@ -1,17 +1,29 @@
 {
-  "name": "ethereum_account_practice",
+  "name": "ethereum_basic",
   "version": "1.0.0",
   "main": "index.js",
+  "dependencies": {
+    "aes-js": "^4.0.0-beta.5",
+    "bn.js": "^4.12.0",
+    "brorand": "^1.1.0",
+    "elliptic": "^6.5.7",
+    "ethers": "^6.13.2",
+    "hash.js": "^1.1.7",
+    "hmac-drbg": "^1.0.1",
+    "inherits": "^2.0.4",
+    "minimalistic-assert": "^1.0.1",
+    "minimalistic-crypto-utils": "^1.0.1",
+    "tslib": "^2.4.0",
+    "ws": "^8.17.1"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node src/index.js"
+    "EOA": "node src/EOA.js",
+    "transaction": "node src/transaction.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "elliptic": "^6.5.7",
-    "ethers": "^6.13.2"
-  }
+  "description": ""
 }
