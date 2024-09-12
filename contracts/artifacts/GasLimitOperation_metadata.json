@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBlockGasLimit",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/GasLimitOperation.sol": "GasLimitOperation"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/GasLimitOperation.sol": {
+			"keccak256": "0x54e3560db9612d017967b5a7bb923261b5f20a7e391edb2fe21bd0424d15b964",
+			"urls": [
+				"bzz-raw://9db1e145eab5ce7f3747ce4363879c76fbc16cbcbd539d33a1b84c0dc930f176",
+				"dweb:/ipfs/Qmdk58RiHZHaSDYmJZ2hf4TbDHbsBAzHhjoSmsY5Z4xLoT"
+			]
+		}
+	},
+	"version": 1
+}
